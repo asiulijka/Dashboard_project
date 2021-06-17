@@ -1,10 +1,105 @@
 /* Colors */
-$paragraph-color: #000000;
-$brand-main-color: #ff0000;
+$color-light: #f5f5f2;
+$colour-dark: #333333;
+$background-colour-light: #e3e3e3;
+
+$brand-main-color: #f58220;
+$brand-colour-light: #ffa200;
+
+$font-colour: #979797;
+$link-colour: #56819f;
+
 
 /* Font sizes */
-$paragraph-font-size: 16px;
+// $paragraph-font-size: 16px;
+$header-font-size: 24px;
 
 /* Fonts */
-$brand-font: "Open Sans", Helvetica, Arial;
+$logo-font: 'Kalam', cursive;
 $paragraph-font: "Open Sans", Helvetica, Arial;
+
+// $font-light: 300;
+$font-normal: 400;
+// $font-semibold: 500;
+$font-bold: 600;
+
+
+// $transition: all .3s;
+$radius: 4px;
+
+// $btn-bg: $brand-colour-light;
+
+
+h1 {
+  color: $font-colour;
+  // text-transform: uppercase;
+}
+
+h2 {
+  color: $font-colour;
+  text-transform: uppercase;
+  font-size: $header-font-size;
+}
+
+h3 {
+  color: $font-colour;
+  font-size: $header-font-size;
+  font-weight: $font-bold;
+}
+
+h4 {
+  color: $font-colour;
+  font-size: $header-font-size;
+  font-weight: $font-normal;
+}
+
+
+p {
+  color: $colour-dark;
+  font-size: $header-font-size;
+  font-weight: $font-normal;
+}
+
+a {
+  color: $link-colour;
+  font-size: $header-font-size;
+  font-weight: $font-normal;
+}
+
+
+
+
+/* Buttons */
+
+.btn {
+  font-size: $header-font-size;
+  background: $brand-main-color;
+  color: $color-light;
+  border-color: $brand-main-color;
+  border-radius: $radius;
+  // transition: $transition;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover {
+    // background: lighten($btn-bg, 3%);
+    background: $brand-colour-light;
+    border-color: $brand-colour-light;
+    color: $color-light;
+  }
+}
+
+// .calendar-btn {
+//   background: src='images/icons/refresh.svg' center;
+// }
+
+
+/* Icons */
+
+.icon {
+  width:  $header-font-size;
+}

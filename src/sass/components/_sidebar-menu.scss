@@ -1,0 +1,23 @@
+.sidebar-menu {
+    background: $colour-dark;
+}
+
+.logo {
+    position: flex;
+}
+
+.logo p {
+    color: $color-light;
+    font-family: $logo-font;
+    font-size: 40px;
+}
+
+.logo i {
+    color: $font-colour;  
+}
+
+.menu-link {
+    color: $font-colour;  
+   
+}
+

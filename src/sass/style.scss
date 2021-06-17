@@ -5,11 +5,16 @@
 @import "layout";
 
 
-// /* Components */
+/* Components */
 // @import "components/form_field";
-//
+@import "components/sidebar-menu";
+@import "components/topbar-menu";
+@import "components/calendar";
+
+
 // /* Sections */
 // @import "section/registration_form";
 //
 // /* Pages / Views */
 // @import "pages/registration";
+@import "pages/dashboard";
