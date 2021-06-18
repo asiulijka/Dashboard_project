@@ -39,6 +39,7 @@ h2 {
   color: $font-colour;
   text-transform: uppercase;
   font-size: $header-font-size;
+  // border-bottom: $background-colour-light;
 }
 
 h3 {
@@ -102,4 +103,5 @@ a {
 
 .icon {
   width:  $header-font-size;
+
 }
