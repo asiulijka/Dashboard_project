@@ -3,5 +3,12 @@
     justify-content: flex-end;
     background-color: $color-light;
     margin-bottom: 15px;
-    
+    align-items: stretch;
+}
+
+.top-bar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-left: solid medium $background-colour-light;
 }

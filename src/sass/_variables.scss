@@ -32,14 +32,15 @@ $radius: 4px;
 
 h1 {
   color: $font-colour;
-  // text-transform: uppercase;
+  padding: 0 15px;
 }
 
 h2 {
   color: $font-colour;
   text-transform: uppercase;
   font-size: $header-font-size;
-  // border-bottom: $background-colour-light;
+  border-bottom: solid medium $background-colour-light;
+  padding: 15px;
 }
 
 h3 {
@@ -59,6 +60,7 @@ p {
   color: $colour-dark;
   font-size: $header-font-size;
   font-weight: $font-normal;
+  padding: 0 15px;
 }
 
 a {
@@ -85,6 +87,7 @@ a {
   padding: 12px 30px;
   text-decoration: none;
   text-align: center;
+  margin: 10px;
 
   &:hover {
     // background: lighten($btn-bg, 3%);
@@ -103,5 +106,5 @@ a {
 
 .icon {
   width:  $header-font-size;
-
+  // color: $font-colour;
 }

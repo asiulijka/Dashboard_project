@@ -1,0 +1,45 @@
+.stat-general .table-component {
+    padding: 0;
+    margin-top: 15px;
+}
+
+.table-left-col {
+    padding-right: 30px;
+}
+
+.table-right-col {
+    padding-left: 30px;
+}
+
+.table-element p {
+    text-align: right; 
+}
+
+
+.earnings {
+    margin: 50px 0;
+}
+
+.earnings-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.earnings-btn .btn {
+    background: $background-colour-light;
+    color: $font-colour;
+    border-color: $background-colour-light;
+
+    &:hover {
+        background: $color-light;
+        color: $link-colour;
+        border-color: $color-light;
+    }
+}
+
+.chart {
+    // object-fit: contain;
+    max-width: -webkit-fill-available;
+    margin-bottom: 30px;
+}
