@@ -15,7 +15,7 @@ $link-colour: #56819f;
 $header-font-size: 24px;
 
 /* Fonts */
-$logo-font: 'Kalam', cursive;
+$logo-font: 'Just Another Hand', cursive;
 $paragraph-font: "Open Sans", Helvetica, Arial;
 
 // $font-light: 300;
@@ -32,7 +32,8 @@ $radius: 4px;
 
 h1 {
   color: $font-colour;
-  padding: 0 15px;
+  padding: 0 5px;
+  // font-size: 20px;
 }
 
 h2 {
@@ -106,5 +107,8 @@ a {
 
 .icon {
   width:  $header-font-size;
+  margin: 0 12px;
   // color: $font-colour;
+  // fill: red;
+  
 }

@@ -4,12 +4,14 @@
 
 .logo {
     position: flex;
+    // margin-right: 20px;
 }
 
 .logo p {
     color: $color-light;
     font-family: $logo-font;
-    font-size: 40px;
+    font-size: 50px;
+    padding-left: 40px;
 }
 
 .logo i {
