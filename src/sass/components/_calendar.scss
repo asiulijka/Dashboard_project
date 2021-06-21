@@ -1,7 +1,24 @@
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .calendar {
     display: flex;
     justify-content: center;
-    border-bottom: solid medium $background-colour-light;
-    margin-bottom: 20px;;
+    border: solid medium $background-colour-light;
+    padding: 10px 0;
+    align-items: center;
 }
 
+.calendar p {
+    margin: 0;
+    padding: 0 30px;
+    text-align: left;
+    font-size: $small-font-size;
+    }
+
+.calendar p:first-of-type {
+    border-right: solid medium $background-colour-light;
+}
