@@ -6,3 +6,19 @@
 .table-element h3 {
     text-align: left; 
 }
+
+.table-component:hover {
+    background-color: $background-colour-light; 
+}
+
+.links-icon {
+    filter: $img-color-light;
+}
+
+.table-component:hover .links-icon {
+    filter: $img-color-font;
+}
+
+.table-component:hover .links-icon:hover {
+    filter: $img-color-brand;
+}

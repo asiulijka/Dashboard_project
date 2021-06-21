@@ -53,3 +53,15 @@ li:hover .side-menu-icon {
     filter: $img-color-light;
 }
 
+.chat-with:hover {
+    background: lighten($colour-dark, $amount: 5);  
+}
+
+.chat-with:hover .chat-with-icon:hover {
+    // border-bottom: solid medium $brand-colour-light;
+    transform: scale(1.3);
+}
+
+.chat-with:hover .chat-with-person {
+    color: $brand-colour-light;
+}

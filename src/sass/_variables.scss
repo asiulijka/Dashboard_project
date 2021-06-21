@@ -13,6 +13,8 @@ $img-color-font: invert(79%) sepia(0%) saturate(5986%) hue-rotate(171deg) bright
 $img-color-light: invert(95%) sepia(28%) saturate(582%) hue-rotate(297deg) brightness(118%) contrast(92%);
 $img-color-brand: invert(78%) sepia(36%) saturate(7416%) hue-rotate(345deg) brightness(98%) contrast(97%);
 
+$circle-green: #04AE00;
+
 /* Fonts */
 $logo-font: 'Just Another Hand', cursive;
 $paragraph-font: "Open Sans", Helvetica, Arial;
@@ -74,6 +76,11 @@ a {
   color: $link-colour;
   font-size: $header-font-size;
   font-weight: $font-normal;
+  
+  &:hover {
+    color: $brand-colour-light;
+    text-decoration: none;
+  }
 }
 
 ul {
@@ -111,7 +118,7 @@ li {
   padding: 12px 30px;
   text-decoration: none;
   text-align: center;
-  margin: 10px;
+  margin: 8px 30px;
 
   &:hover {
     // background: lighten($btn-bg, 3%);
@@ -133,3 +140,14 @@ li {
   margin: 0 12px;
   filter: $img-color-font;
 }
+
+/* Circle */
+
+.circle {
+  height: $header-font-size;
+  width: $header-font-size;
+  background-color: $brand-main-color;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+

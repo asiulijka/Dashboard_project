@@ -1,3 +1,7 @@
+.table {
+    padding-bottom: 20px;
+}
+
 .stat-general .table-component {
     padding: 0;
     margin-top: 15px;
@@ -11,8 +15,13 @@
     padding-left: 30px;
 }
 
+.table-element h3 {
+    margin: 0;
+}
+
 .table-element p {
     text-align: right; 
+    margin: 0;
 }
 
 
@@ -30,12 +39,28 @@
     background: $background-colour-light;
     color: $font-colour;
     border-color: $background-colour-light;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
 
     &:hover {
         background: $color-light;
         color: $link-colour;
         border-color: $color-light;
     }
+}
+
+.btn-blue .circle {
+    background-color: lighten($link-colour, $amount: 15);
+    // background-color: red;
+}
+
+// .btn .circle {
+//     margin-left: 16px;
+// }
+
+.btn-green .circle{
+    background-color: $circle-green;
 }
 
 .chart {
