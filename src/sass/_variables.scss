@@ -9,6 +9,9 @@ $brand-colour-light: #ffa200;
 $font-colour: #979797;
 $link-colour: #56819f;
 
+$img-color-font: invert(79%) sepia(0%) saturate(5986%) hue-rotate(171deg) brightness(75%) contrast(84%);
+$img-color-light: invert(95%) sepia(28%) saturate(582%) hue-rotate(297deg) brightness(118%) contrast(92%);
+$img-color-brand: invert(78%) sepia(36%) saturate(7416%) hue-rotate(345deg) brightness(98%) contrast(97%);
 
 /* Fonts */
 $logo-font: 'Just Another Hand', cursive;
@@ -22,7 +25,7 @@ $header-font-size: 22px;
 
 // $font-light: 300;
 $font-normal: 400;
-// $font-semibold: 500;
+$font-semibold: 500;
 $font-bold: 600;
 
 
@@ -82,11 +85,11 @@ ul {
 
 li {
   padding: 8px 0;
-  border-left: solid 20px $colour-dark;
+  border-left: solid 12px $colour-dark;
 
   &:hover {
-    border-left: solid 20px $brand-main-color;
-    background: $font-colour;
+    border-left: solid 12px $brand-main-color;
+    background: lighten($colour-dark, $amount: 5);
   }
 }
 
@@ -128,7 +131,5 @@ li {
 .icon {
   width:  $header-font-size;
   margin: 0 12px;
-  // color: $font-colour;
-  // fill: red;
-  
+  filter: $img-color-font;
 }

@@ -13,13 +13,9 @@
     padding-left: 40px;
 }
 
-// .logo i {
-//     color: $font-colour;  
-// }
-
 .menu-link {
     color: $font-colour;  
-   
+    padding: 18px 0;   
 }
 
 .chat-menu {
@@ -32,31 +28,28 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: $header-font-size * 0.9;
-    // padding: 0;
 }
 
 .chat-with {
     display: flex;
-    // justify-content: center;
     align-items: stretch;
-    // padding-left: 35px;
-}
+ }
 
 .chat-with-icon {
    margin: 0;
-    // align-items: stretch;
 }
 
 .chat-with-person {
     padding: 0;
 }
 
-li:hover .menu-link:hover {
-    font: red;
-}
 
 li:hover .menu-link {
     color: $color-light;
     text-decoration: none;
-    // background: yellow;
+ }
+
+li:hover .side-menu-icon {
+    filter: $img-color-light;
 }
+
