@@ -14,19 +14,20 @@
 }
 
 .top-bar-container h1{
-    font-size: x-large;
+    font-size: $header-font-size * 1.2;
 }
 
 .top-bar-container p{
     color: $link-colour;
-    font-size: large;
+    font-size: $small-font-size;
     font-weight: $font-bold;
     // align-items: center;
     margin: auto;
+    padding: 0 8px;
 }
 
 .top-bar-icon {
-    margin: 0 10px;
+    margin: 0 8px;
     // fill: red;
     // color: $font-colour;
 }

@@ -4,7 +4,6 @@
 
 .logo {
     position: flex;
-    // margin-right: 20px;
 }
 
 .logo p {
@@ -14,12 +13,50 @@
     padding-left: 40px;
 }
 
-.logo i {
-    color: $font-colour;  
-}
+// .logo i {
+//     color: $font-colour;  
+// }
 
 .menu-link {
     color: $font-colour;  
    
 }
 
+.chat-menu {
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.chat-menu h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: $header-font-size * 0.9;
+    // padding: 0;
+}
+
+.chat-with {
+    display: flex;
+    // justify-content: center;
+    align-items: stretch;
+    // padding-left: 35px;
+}
+
+.chat-with-icon {
+   margin: 0;
+    // align-items: stretch;
+}
+
+.chat-with-person {
+    padding: 0;
+}
+
+li:hover .menu-link:hover {
+    font: red;
+}
+
+li:hover .menu-link {
+    color: $color-light;
+    text-decoration: none;
+    // background: yellow;
+}

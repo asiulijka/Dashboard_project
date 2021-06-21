@@ -10,13 +10,15 @@ $font-colour: #979797;
 $link-colour: #56819f;
 
 
-/* Font sizes */
-// $paragraph-font-size: 16px;
-$header-font-size: 24px;
-
 /* Fonts */
 $logo-font: 'Just Another Hand', cursive;
 $paragraph-font: "Open Sans", Helvetica, Arial;
+
+
+/* Font sizes */
+$small-font-size: 18px;
+$header-font-size: 22px;
+
 
 // $font-light: 300;
 $font-normal: 400;
@@ -34,6 +36,7 @@ h1 {
   color: $font-colour;
   padding: 0 5px;
   // font-size: 20px;
+  font-weight: $font-bold;
 }
 
 h2 {
@@ -68,6 +71,23 @@ a {
   color: $link-colour;
   font-size: $header-font-size;
   font-weight: $font-normal;
+}
+
+ul {
+  padding-bottom: 40px;
+  padding-left: 10px;
+  border-bottom: solid medium $font-colour;
+  list-style-type: none;
+}
+
+li {
+  padding: 8px 0;
+  border-left: solid 20px $colour-dark;
+
+  &:hover {
+    border-left: solid 20px $brand-main-color;
+    background: $font-colour;
+  }
 }
 
 
