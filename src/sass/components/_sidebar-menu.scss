@@ -5,12 +5,24 @@
     // position: fixed;
 }
 
-.logo {
-    position: flex;
-    // position: fixed;
+.navbar {
+    flex-direction: column;
 }
 
-.logo p {
+.navbar-nav {
+   flex-direction: column !important; 
+}
+
+.navbar-toggler-icon {
+    background-color: red;
+}
+
+// .logo {
+//     position: flex;
+//     // position: fixed;
+// }
+
+.navbar p {
     color: $color-light;
     font-family: $logo-font;
     font-size: 50px;
