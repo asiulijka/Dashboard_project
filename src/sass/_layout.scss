@@ -11,3 +11,54 @@
     // border-bottom: 50px;
     // margin-right: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    // .table-component {
+    //     padding-bottom: 5px;
+    // }
+    
+    .table-element-icon {
+        // order: 2 !important; 
+        text-align: left !important; 
+        padding-left: 30% !important;
+    }
+
+
+    .tb-elem-name h3{
+        // order: 1 !important; 
+        // text-align: left !important; 
+        padding-left: 30% !important;
+    }
+
+    .tb-elem-link{
+        // order: 3 !important; 
+        // text-align: left !important; 
+        padding-left: 30% !important;
+    }
+
+    .btn {
+        font-size: $header-font-size *0.75; 
+        padding: 8px 22px;
+    }
+
+    h2, h3, a, p {
+        font-size: $header-font-size *0.75;  
+    }
+
+    // .links-table .table-element h3{
+    //     padding-left; 30px ;
+    // }
+
+    .calendar-container {
+        flex-direction: column;;
+    }
+
+    .icon {
+        width:  $header-font-size *0.75;
+    }
+
+    .chat-with:hover .chat-with-icon:hover {
+        transform: none !important;
+        border: solid thin $brand-colour-light;
+    }
+}

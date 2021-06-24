@@ -14,7 +14,7 @@
 }
 
 .navbar-toggler-icon {
-    background-color: red;
+    // background-color: red;
 }
 
 // .logo {
@@ -27,6 +27,10 @@
     font-family: $logo-font;
     font-size: 50px;
     padding-left: 40px;
+}
+
+.navbar-toggler  {
+    display: block !important; 
 }
 
 .left-menu {
@@ -77,9 +81,10 @@ li:hover .side-menu-icon {
     background: lighten($colour-dark, $amount: 5);  
 }
 
-.chat-with:hover .chat-with-icon:hover {
+.chat-with:hover .chat-with-icon {
     // border-bottom: solid medium $brand-colour-light;
-    transform: scale(1.3);
+    // transform: scale(1.3);
+    border: solid thin $brand-colour-light;
 }
 
 .chat-with:hover .chat-with-person {
