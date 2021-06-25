@@ -22,12 +22,76 @@
 //     // position: fixed;
 // }
 
-.navbar p {
+#brand-name {
     color: $color-light;
     font-family: $logo-font;
-    font-size: 50px;
-    padding-left: 40px;
+    font-size: 40px;
+    margin: 0px;
+    // padding-left: 40px;
+    // padding
 }
+
+#side-menu-toggler {
+    border-width: $hamburger-border-width;
+    border-color: $color-light;
+    border-style: solid;
+    border-radius: $hamburger-border-radius;
+    background-color: $colour-dark;
+    height: $hamburger-height;
+    width: $hamburger-width;
+}
+
+.side-menu-toggler-bar {
+    width: $hamburger-width*0.6;
+    height: $hamburger-height*0.1;
+    background-color: $color-light;
+    margin: $hamburger-height*0.15 $hamburger-width*0.15;
+    transition: 0.4s;
+}
+
+#side-menu-toggler:hover {
+    border-color: $colour-dark;
+    background-color: $color-light;
+}
+
+#side-menu-toggler:hover .side-menu-toggler-bar {
+    background-color: $colour-dark;
+}
+
+#side-menu-toggler-bar-1.clicked {
+    -webkit-transform: rotate(-90deg) translate(-$hamburger-width*0.6*0.4, -$hamburger-width*0.6*0.4);
+    transform: rotate(-90deg) translate(-$hamburger-width*0.6*0.4, -$hamburger-width*0.6*0.4);
+}
+
+#side-menu-toggler-bar-2.clicked {
+    -webkit-transform: rotate(-90deg) translate(0px, 0px);
+    transform: rotate(-90deg) translate(0px, 0px);
+}
+
+#side-menu-toggler-bar-3.clicked {
+    -webkit-transform: rotate(-90deg) translate($hamburger-width*0.6*0.4, $hamburger-width*0.6*0.4);
+    transform: rotate(-90deg) translate($hamburger-width*0.6*0.4, $hamburger-width*0.6*0.4);
+}
+
+#side-menu-options {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#side-menu-options.collapsed {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: visibility 0s, opacity 0.5s, height 0.5s linear;
+}
+
+// .navbar p {
+//     color: $color-light;
+//     font-family: $logo-font;
+//     font-size: 50px;
+//     padding-left: 40px;
+// }
 
 .navbar-toggler  {
     display: block !important; 
