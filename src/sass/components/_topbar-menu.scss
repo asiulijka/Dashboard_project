@@ -11,6 +11,7 @@
     // position: fixed;
     // right: 0;
     // z-index: 1;
+    padding: 15px 0;
     border-bottom: solid thick $background-colour-light;
 }
 
@@ -21,11 +22,14 @@
     border-left: solid medium $background-colour-light;
 }
 
-.top-bar-container h1{
-    font-size: $header-font-size * 1.2;
+.total-value p{
+    font-size: $header-font-size *1.2;
+    color: $font-colour;
+    font-weight: $font-bold;
+    margin: 0;
 }
 
-.top-bar-container p{
+.profile p{
     color: $link-colour;
     font-size: $small-font-size;
     font-weight: $font-semibold;

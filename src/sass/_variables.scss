@@ -21,8 +21,8 @@ $paragraph-font: "Open Sans", Helvetica, Arial;
 
 
 /* Font sizes */
-$small-font-size: 18px;
-$header-font-size: 22px;
+$small-font-size: 16px;
+$header-font-size: 18px;
 
 
 // $font-light: 300;
@@ -41,13 +41,6 @@ $hamburger-border-width: 2px;
 $hamburger-border-radius: 25%;
 $hamburger-height: 40px;
 $hamburger-width: 40px;
-
-h1 {
-  color: $font-colour;
-  padding: 0 5px;
-  // font-size: 20px;
-  font-weight: $font-bold;
-}
 
 h2 {
   color: $font-colour;
