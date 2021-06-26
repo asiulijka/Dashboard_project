@@ -12,6 +12,30 @@
     // margin-right: 50px;
 }
 
+@media screen and (max-width: 576px){
+    
+    .btn {
+        margin: 10px 5px;
+    }
+
+    .earnings {
+        margin-top: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .chart {
+        margin-bottom: 5px !important;
+    }
+
+    .top-bar-container {
+        padding: 0 !important;
+    }
+
+    .total-value p{
+        align-self: center;
+    }
+}
+
 @media screen and (max-width: 768px){
 
     .links-table .table-component {
