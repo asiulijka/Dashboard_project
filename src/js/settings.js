@@ -16,6 +16,9 @@ export const classNames = {
         },
         options: {
             collapsed: 'collapsed'
+        },
+        div: {
+            fixedPosition: 'fixed-position'
         }
     }
 }

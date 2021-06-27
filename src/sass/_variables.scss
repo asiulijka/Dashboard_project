@@ -1,6 +1,6 @@
 /* Colors */
 $color-light: #f5f5f2;
-$colour-dark: #333333;
+$color-dark: #333333;
 $background-colour-light: #e3e3e3;
 
 $brand-main-color: #f58220;
@@ -64,7 +64,7 @@ h4 {
 
 
 p {
-  color: $colour-dark;
+  color: $color-dark;
   font-size: $header-font-size;
   font-weight: $font-normal;
   padding: 0 15px;
@@ -90,11 +90,11 @@ ul {
 
 li {
   padding: 8px 0;
-  border-left: solid 12px $colour-dark;
+  border-left: solid 12px $color-dark;
 
   &:hover {
     border-left: solid 12px $brand-main-color;
-    background: lighten($colour-dark, $amount: 5);
+    background: lighten($color-dark, $amount: 5);
   }
 }
 

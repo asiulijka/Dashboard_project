@@ -19,7 +19,6 @@ class SideMenu {
         thisSideMenu.dom.togglerBars = thisSideMenu.dom.wrapper.querySelectorAll(select.sideMenu.togglerBars);
 
         thisSideMenu.dom.optionsList = thisSideMenu.dom.wrapper.querySelector(select.sideMenu.options);
-
       }
     
       initActions(){
@@ -36,7 +35,9 @@ class SideMenu {
         });
 
         window.addEventListener("resize", function() {
-            thisSideMenu.manageVisibility()
+            thisSideMenu.manageVisibility();
+            
+
         });
     
       }
@@ -49,11 +50,13 @@ class SideMenu {
                     bar.classList.add(classNames.sideMenu.bars.add);
             };
             thisSideMenu.dom.optionsList.classList.add(classNames.sideMenu.options.collapsed);
+            thisSideMenu.dom.wrapper.classList.remove(classNames.sideMenu.div.fixedPosition);
         } else {
             for (const bar of thisSideMenu.dom.togglerBars) {
                 bar.classList.remove(classNames.sideMenu.bars.add);
             };
             thisSideMenu.dom.optionsList.classList.remove(classNames.sideMenu.options.collapsed);
+            thisSideMenu.dom.wrapper.classList.add(classNames.sideMenu.div.fixedPosition);
         };
       }
 }
