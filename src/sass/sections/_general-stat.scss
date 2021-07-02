@@ -62,19 +62,13 @@
 
 .btn-blue .circle {
     background-color: lighten($link-colour, $amount: 15);
-    // background-color: red;
 }
-
-// .btn .circle {
-//     margin-left: 16px;
-// }
 
 .btn-green .circle{
     background-color: $circle-green;
 }
 
 .chart {
-    // object-fit: contain;
     max-width: -webkit-fill-available;
     margin-bottom: 30px;
 }

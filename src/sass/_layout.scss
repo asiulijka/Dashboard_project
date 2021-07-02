@@ -8,8 +8,6 @@
 
 .inner-container {
     padding: 20px 0;
-    // border-bottom: 50px;
-    // margin-right: 50px;
 }
 
 @media screen and (max-width: 576px){
@@ -36,28 +34,20 @@
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
 
     .links-table .table-component {
         padding-left: 30%;
     }
-}
-
-@media screen and (max-width: 992px) {
-
+    
     .table-component {
         padding-bottom: 5px !important;
     }
     
     .table-element-icon {
-        // order: 2 !important; 
         text-align: left !important; 
         padding: 0;
     }
-
-    // .links-table .table-component {
-    //     padding-left: 30%;
-    // }
 
     .links-icon {
         filter: $img-color-font !important;
@@ -66,18 +56,6 @@
     .table-component:hover .links-icon:hover {
         filter: $img-color-brand !important;
     }
-
-    // .tb-elem-name h3{
-    //     // order: 1 !important; 
-    //     // text-align: left !important; 
-    //     padding-left: 30% !important;
-    // }
-
-    // .tb-elem-link{
-    //     // order: 3 !important; 
-    //     // text-align: left !important; 
-    //     padding-left: 30% !important;
-    // }
 
     .btn {
         font-size: $header-font-size *0.75; 
@@ -95,9 +73,6 @@
       .profile p{
         font-size: $small-font-size 0.8 !important;
     }
-    // .links-table .table-element h3{
-    //     padding-left; 30px ;
-    // }
 
     .calendar-container {
         flex-direction: column;;
@@ -107,11 +82,9 @@
         width:  $header-font-size *0.75;
     }
 
-
     .top-bar {
         padding: 5px 0 !important;
     }
-
 
     .chat-menu h3 {
         margin-bottom: 5px !important;
@@ -129,5 +102,18 @@
     ul {
         padding-bottom: 5px;
     }
+
+    li:not(li:first-of-type) {
+       padding-left: 35%;
+    }
+
+    li:last-of-type {
+        padding-left: 0 !important;
+        // justify-content: left !important;
+    }
+
+    // .chat-menu {
+    //     justify-content: left !important;
+    // }
 
 }

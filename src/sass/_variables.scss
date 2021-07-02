@@ -25,16 +25,13 @@ $small-font-size: 16px;
 $header-font-size: 18px;
 
 
-// $font-light: 300;
 $font-normal: 400;
 $font-semibold: 500;
 $font-bold: 600;
 
 
-// $transition: all .3s;
 $radius: 4px;
 
-// $btn-bg: $brand-colour-light;
 
 /* Side menu hamburger */
 $hamburger-border-width: 2px;
@@ -109,7 +106,6 @@ li {
   color: $color-light;
   border-color: $brand-main-color;
   border-radius: $radius;
-  // transition: $transition;
   display: inline-block;
   border-width: 1px;
   border-style: solid;
@@ -119,16 +115,11 @@ li {
   margin: 10px 30px;
 
   &:hover {
-    // background: lighten($btn-bg, 3%);
     background: $brand-colour-light;
     border-color: $brand-colour-light;
     color: $color-light;
   }
 }
-
-// .calendar-btn {
-//   background: src='images/icons/refresh.svg' center;
-// }
 
 
 /* Icons */

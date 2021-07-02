@@ -1,7 +1,5 @@
 .sidebar-menu {
     background: $color-dark;
-
-    // position: fixed;
     bottom: 0;
     top: 0;
 }
@@ -22,22 +20,11 @@
    flex-direction: column !important; 
 }
 
-.navbar-toggler-icon {
-    // background-color: red;
-}
-
-// .logo {
-//     position: flex;
-//     // position: fixed;
-// }
-
 #brand-name {
     color: $color-light;
     font-family: $logo-font;
     font-size: 40px;
     margin: 0px;
-    // padding-left: 40px;
-    // padding
 }
 
 #side-menu-toggler {
@@ -95,19 +82,11 @@
     transition: visibility 0s, opacity 0.5s, height 0.5s linear;
 }
 
-// .navbar p {
-//     color: $color-light;
-//     font-family: $logo-font;
-//     font-size: 50px;
-//     padding-left: 40px;
-// }
-
 .navbar-toggler  {
     display: block !important; 
 }
 
 .left-menu {
-    // position: fixed;
 }
 
 .menu-link {
@@ -130,7 +109,6 @@
 .chat-with {
     display: flex;
     align-items: stretch;
-    // padding-left: 15px;
  }
 
 .chat-with-icon {
@@ -166,12 +144,17 @@ li:hover .side-menu-icon {
     color: $brand-colour-light;
 }
 
+li:first-of-type {
+    &:hover {
+      border-left: solid 12px $color-dark;
+      border-right: solid 12px $color-dark;
+      background: $color-dark;
+    }
+  }
+
 li:last-of-type {
-    padding: 8px 0;
-    border-left: solid 12px $color-dark;
-  
     &:hover {
       border-left: solid 12px $color-dark;
       background: $color-dark;
     }
-  }
+}
