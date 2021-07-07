@@ -1,160 +1,157 @@
 .sidebar-menu {
-    background: $color-dark;
-    bottom: 0;
-    top: 0;
+  background: $color-dark;
+  bottom: 0;
+  top: 0;
 }
 
 .side-menu-options-list {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .fixed-position {
-    position: fixed;
+  position: fixed;
 }
 
 .navbar {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .navbar-nav {
-   flex-direction: column !important; 
+  flex-direction: column !important; 
 }
 
 #brand-name {
-    color: $color-light;
-    font-family: $logo-font;
-    font-size: 40px;
-    margin: 0px;
+  color: $color-light;
+  font-family: $logo-font;
+  font-size: 40px;
+  margin: 0px;
 }
 
 #side-menu-toggler {
-    border-width: $hamburger-border-width;
-    border-color: $color-light;
-    border-style: solid;
-    border-radius: $hamburger-border-radius;
-    background-color: $color-dark;
-    height: $hamburger-height;
-    width: $hamburger-width;
+  border-width: $hamburger-border-width;
+  border-color: $color-light;
+  border-style: solid;
+  border-radius: $hamburger-border-radius;
+  background-color: $color-dark;
+  height: $hamburger-height;
+  width: $hamburger-width;
 }
 
 .side-menu-toggler-bar {
-    width: $hamburger-width*0.6;
-    height: $hamburger-height*0.1;
-    background-color: $color-light;
-    margin: $hamburger-height*0.15 $hamburger-width*0.15;
-    transition: 0.4s;
+  width: $hamburger-width*0.6;
+  height: $hamburger-height*0.1;
+  background-color: $color-light;
+  margin: $hamburger-height*0.15 $hamburger-width*0.15;
+  transition: 0.4s;
 }
 
 #side-menu-toggler:hover {
-    border-color: $color-dark;
-    background-color: $color-light;
+  border-color: $color-dark;
+  background-color: $color-light;
 }
 
 #side-menu-toggler:hover .side-menu-toggler-bar {
-    background-color: $color-dark;
+  background-color: $color-dark;
 }
 
 #side-menu-toggler-bar-1.clicked {
-    -webkit-transform: rotate(-90deg) translate(-$hamburger-width*0.6*0.4, -$hamburger-width*0.6*0.4);
-    transform: rotate(-90deg) translate(-$hamburger-width*0.6*0.4, -$hamburger-width*0.6*0.4);
+  -webkit-transform: rotate(-90deg) translate(-$hamburger-width*0.6*0.4, -$hamburger-width*0.6*0.4);
+  transform: rotate(-90deg) translate(-$hamburger-width*0.6*0.4, -$hamburger-width*0.6*0.4);
 }
 
 #side-menu-toggler-bar-2.clicked {
-    -webkit-transform: rotate(-90deg) translate(0px, 0px);
-    transform: rotate(-90deg) translate(0px, 0px);
+  -webkit-transform: rotate(-90deg) translate(0px, 0px);
+  transform: rotate(-90deg) translate(0px, 0px);
 }
 
 #side-menu-toggler-bar-3.clicked {
-    -webkit-transform: rotate(-90deg) translate($hamburger-width*0.6*0.4, $hamburger-width*0.6*0.4);
-    transform: rotate(-90deg) translate($hamburger-width*0.6*0.4, $hamburger-width*0.6*0.4);
+  -webkit-transform: rotate(-90deg) translate($hamburger-width*0.6*0.4, $hamburger-width*0.6*0.4);
+  transform: rotate(-90deg) translate($hamburger-width*0.6*0.4, $hamburger-width*0.6*0.4);
 }
 
 #side-menu-options {
-    visibility: visible;
-    opacity: 1;
-    transition: 0.8s;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.8s;
 }
 
 #side-menu-options.collapsed {
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    transition: visibility 0s, opacity 0.5s, height 0.5s linear;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: visibility 0s, opacity 0.5s, height 0.5s linear;
 }
 
 .navbar-toggler  {
-    display: block !important; 
-}
-
-.left-menu {
+  display: block !important; 
 }
 
 .menu-link {
-    color: $font-colour;  
-    padding: 18px 0;   
+  color: $font-colour;
+  padding: 18px 0;   
 }
 
 .chat-menu {
-    border-top: solid medium $font-colour;
-    margin-top: 20px;
-    padding-top: 10px;
+  border-top: solid medium $font-colour;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
 .chat-menu h3 {
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    font-size: $header-font-size * 0.9;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: $header-font-size * 0.9;
 }
 
 .chat-with {
-    display: flex;
-    align-items: stretch;
- }
+  display: flex;
+  align-items: stretch;
+}
 
 .chat-with-icon {
-   margin: 0;
-   max-height: 50px;
-   max-width: 50px;
+  margin: 0;
+  max-height: 50px;
+  max-width: 50px;
 }
 
 .chat-with-person {
-    padding: 0;
-    align-self: center;
+  padding: 0;
+  align-self: center;
 }
 
 
 li:hover .menu-link {
-    color: $color-light;
-    text-decoration: none;
- }
+  color: $color-light;
+  text-decoration: none;
+}
 
 li:hover .side-menu-icon {
-    filter: $img-color-light;
+  filter: $img-color-light;
 }
 
 .chat-with:hover {
-    background: lighten($color-dark, $amount: 5);  
+  background: lighten($color-dark, $amount: 5);  
 }
 
 .chat-with:hover .chat-with-icon {
-    border: solid thin $brand-colour-light;
+  border: solid thin $brand-colour-light;
 }
 
 .chat-with:hover .chat-with-person {
-    color: $brand-colour-light;
+  color: $brand-colour-light;
 }
 
 li:first-of-type {
-    &:hover {
-      border-left: solid 12px $color-dark;
-      border-right: solid 12px $color-dark;
-      background: $color-dark;
-    }
+  &:hover {
+    border-left: solid 12px $color-dark;
+    border-right: solid 12px $color-dark;
+    background: $color-dark;
   }
+}
 
 li:last-of-type {
-    &:hover {
-      border-left: solid 12px $color-dark;
-      background: $color-dark;
-    }
+  &:hover {
+    border-left: solid 12px $color-dark;
+    background: $color-dark;
+  }
 }

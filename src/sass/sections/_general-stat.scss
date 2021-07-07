@@ -1,20 +1,20 @@
 .refresh-icon {
-    filter: $img-color-light;
+  filter: $img-color-light;
 }
 
 .calendar-btn {
-    padding: 10px;
-    margin-left: 18px;
-   }
+  padding: 10px;
+  margin-left: 18px;
+}
 
 .table {
-    padding-bottom: 20px;
-    margin: 0;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 .stat-general .table-component {
-    padding: 0;
-    margin-top: 15px;
+  padding: 0;
+  margin-top: 15px;
 }
 
 // .table-left-col {
@@ -26,49 +26,49 @@
 // }
 
 .table-element h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .table-element p {
-    text-align: right; 
-    margin: 0;
+  text-align: right;
+  margin: 0;
 }
 
 
 .earnings {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 .earnings-btn {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .earnings-btn .btn {
-    background: $background-colour-light;
-    color: $font-colour;
-    border-color: $background-colour-light;
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
+  background: $background-colour-light;
+  color: $font-colour;
+  border-color: $background-colour-light;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
 
-    &:hover {
-        background: $color-light;
-        color: $link-colour;
-        border-color: $color-light;
-    }
+  &:hover {
+    background: $color-light;
+    color: $link-colour;
+    border-color: $color-light;
+  }
 }
 
 .btn-blue .circle {
-    background-color: lighten($link-colour, $amount: 15);
+  background-color: lighten($link-colour, $amount: 15);
 }
 
 .btn-green .circle{
-    background-color: $circle-green;
+  background-color: $circle-green;
 }
 
 .chart {
-    max-width: -webkit-fill-available;
-    margin-bottom: 30px;
+  max-width: -webkit-fill-available;
+  margin-bottom: 30px;
 }

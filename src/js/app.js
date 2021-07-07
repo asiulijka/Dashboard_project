@@ -2,18 +2,15 @@ import {select} from './settings.js';
 import SideMenu from './components/SideMenu.js';
 
 const app = {
-    initSideMenu: function(){
-        const thisApp = this;
+  initSideMenu: function(){
+    const sideMenuElem = document.querySelector(select.containerOf.sideMenu);
+    new SideMenu(sideMenuElem);
+  },
 
-        const sideMenuElem = document.querySelector(select.containerOf.sideMenu);
-        new SideMenu(sideMenuElem);
-    },
-  
-    init: function(){
-        const thisApp = this;
-        this.initSideMenu();
-    },
-  
-  };
-  
+  init: function(){
+    this.initSideMenu();
+  },
+
+};
+
 app.init();
